@@ -38,12 +38,12 @@ ApplicationPalette {
 	qproperty-shadow: $base-border;
 }
 
-*,
-*::separator,
-*::handle,
-*::tab-bar,
-*::tab,
-*::section
+QObject,
+QObject::separator,
+QObject::handle,
+QObject::tab-bar,
+QObject::tab,
+QObject::section
 {
 	font-family:"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size:10pt;
@@ -73,8 +73,8 @@ QCalendarWidget *,
 	color:$sub-text;
 }
 
-*:disabled,
-*::item:disabled
+QObject:disabled,
+QObject::item:disabled
 {
 	color:$base-text-disabled;
 }
@@ -85,13 +85,13 @@ a
 	text-decoration:none;
 }
 
-*::separator
+QObject::separator
 {
 	height:4px;
 	width:4px;
 }
 
-*::separator:hover
+QObject::separator:hover
 {
 	background:$base-hover;
 }
