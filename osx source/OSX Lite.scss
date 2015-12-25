@@ -12,7 +12,19 @@ $osx-bar-bg: transparent;
 $osx-bar-hover: transparent;
 $osx-bar-pressed: transparent;
 
-@import '../source/Lite';
+@import '../source/Base/Lite Definition';
+
+$font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
+$font-size-bigger: 16pt;
+$font-size-big: 15pt;
+$font-size-normal: 13pt;
+$font-size-medium: 12pt;
+$font-size-small: 11pt;
+$font-size-extra-small: 10pt;
+$font-size-qslider-groove: 6pt;
+$font-size-qslider-handle: 5pt;
+
+@import '../source/Base/Base';
 
 QToolBar
 {

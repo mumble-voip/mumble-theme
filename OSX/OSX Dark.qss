@@ -56,8 +56,8 @@ QObject::handle,
 QObject::tab-bar,
 QObject::tab,
 QObject::section {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 10pt;
+  font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
+  font-size: 13pt;
   margin: 0;
   padding: 0;
   outline: 0;
@@ -102,12 +102,12 @@ QObject::separator:hover {
 }
 
 DockTitleBar {
-  font-size: 7pt;
+  font-size: 10pt;
 }
 
 QToolTip,
 QWhatsThis {
-  font-size: 8pt;
+  font-size: 11pt;
   min-height: 1.3em;
   border: 1px solid #888;
   border-radius: 0;
@@ -234,7 +234,7 @@ QPushButton {
   background-color: #444;
   border: 1px solid #444;
   color: #d8d8d8;
-  font-size: 12pt;
+  font-size: 15pt;
   padding: 3px 20px;
 }
 
@@ -268,7 +268,7 @@ qwWarningContainer {
   background-color: #2d2d2d;
   border: 1px solid #1c1c1c;
   color: #d8d8d8;
-  font-size: 13pt;
+  font-size: 16pt;
   padding: 4px;
   padding-top: 1em;
 }
@@ -518,7 +518,7 @@ QTabBar::tab:bottom:only-one {
 
 QScrollBar {
   border-radius: 0;
-  font-size: 10pt;
+  font-size: 13pt;
 }
 
 QScrollBar:vertical {
@@ -766,7 +766,7 @@ QSlider::groove {
   background: #393939;
   border: 1px solid #393939;
   border-radius: 2px;
-  font-size: 3pt;
+  font-size: 6pt;
 }
 
 QSlider::groove:horizontal {
@@ -794,7 +794,7 @@ QSlider::handle {
   background: #777;
   border: 1px solid #222;
   border-radius: 3px;
-  font-size: 4pt;
+  font-size: 5pt;
 }
 
 QSlider::handle:horizontal {
@@ -922,13 +922,13 @@ UserView::item {
   padding: -2px;
   margin: 0 2px;
   margin-bottom: 2px;
-  font-size: 10pt;
+  font-size: 13pt;
 }
 
 .log-time {
   background-color: transparent;
   color: #95a5a6;
-  font-size: 9pt;
+  font-size: 12pt;
 }
 
 .log-server {
@@ -965,7 +965,7 @@ QListView#qlwIcons {
   padding: 0;
   background-color: transparent;
   border: 0;
-  font-size: 12pt;
+  font-size: 15pt;
   min-width: 165%;
   margin-left: 4px;
   margin-top: 12px;
@@ -1014,7 +1014,7 @@ QTreeView::item QLineEdit {
   padding-bottom: 0;
   padding-left: 4px;
   padding-right: 4px;
-  font-size: 9pt;
+  font-size: 12pt;
 }
 
 QListView::item QListWidgetItem:hover,
