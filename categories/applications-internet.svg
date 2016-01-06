@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
-<circle opacity="0.75" fill="#0099CE" enable-background="new    " cx="251" cy="251" r="220.5"/>
+<circle opacity="0.9" fill="#4285F4" enable-background="new    " cx="251" cy="251" r="220.5"/>
 <polyline fill="#40FF96" points="99.791,300.202 99.796,300.204 99.791,300.202 "/>
 <polyline fill="#40FF96" points="99.778,300.195 99.791,300.202 99.778,300.195 "/>
 <path fill="#40FF96" d="M97.411,298.878c0,0,1.015,0.564,2.368,1.316C98.08,299.25,97.411,298.878,97.411,298.878"/>
