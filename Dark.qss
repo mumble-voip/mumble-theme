@@ -27,11 +27,11 @@ ApplicationPalette {
   qproperty-window: #2e2e2e;
   qproperty-windowtext: #eee;
   qproperty-windowtext_disabled: #484848;
-  qproperty-base: #1d1d1d;
+  qproperty-base: #191919;
   qproperty-alternatebase: #2d2d2d;
   qproperty-text: #d8d8d8;
   qproperty-text_disabled: #484848;
-  qproperty-tooltipbase: #1d1d1d;
+  qproperty-tooltipbase: #191919;
   qproperty-tooltiptext: #d8d8d8;
   qproperty-tooltiptext_disabled: #484848;
   qproperty-brighttext: #FFF;
@@ -79,7 +79,7 @@ QDialog,
 QWizard *,
 QCalendarWidget *,
 #qswPages > QObject {
-  background-color: #222;
+  background-color: #202020;
   color: #d8d8d8;
 }
 
@@ -112,13 +112,13 @@ QWhatsThis {
   min-height: 1.3em;
   border: 1px solid #888;
   border-radius: 0;
-  background-color: #1d1d1d;
+  background-color: #191919;
   color: #d8d8d8;
 }
 
 QTextBrowser,
 QTextEdit {
-  background-color: #1d1d1d;
+  background-color: #191919;
   color: #d8d8d8;
   border: 1px solid #1c1c1c;
 }
@@ -282,7 +282,7 @@ QGroupBox::title {
 }
 
 QListView {
-  background-color: #1d1d1d;
+  background-color: #191919;
   border: 1px solid #1c1c1c;
 }
 
@@ -310,9 +310,9 @@ QListView::item:selected:active {
 }
 
 QTreeView {
-  background-color: #1d1d1d;
+  background-color: #191919;
   color: #d8d8d8;
-  selection-background-color: #1d1d1d;
+  selection-background-color: #191919;
   selection-color: #d8d8d8;
   border: 1px solid #1c1c1c;
 }
@@ -447,7 +447,7 @@ QTabWidget::pane:bottom {
 }
 
 QTabWidget::tab-bar {
-  background-color: #222;
+  background-color: #202020;
 }
 
 QTabBar::tab {
@@ -573,7 +573,7 @@ QAbstractScrollArea::corner {
   border-radius: 0;
   border-top: 1px solid #1c1c1c;
   border-left: 1px solid #1c1c1c;
-  background: #1d1d1d;
+  background: #191919;
 }
 
 QLineEdit,
@@ -599,7 +599,7 @@ QSpinBox,
 QAbstractSpinBox,
 QComboBox:editable {
   border: 1px solid #2e2e2e;
-  background-color: #1f1f1f;
+  background-color: #191919;
 }
 
 QSpinBox,
@@ -625,7 +625,7 @@ QComboBox::drop-down,
 QAbstractSpinBox::drop-down,
 QSpinBox::drop-down,
 QDateTimeEdit::drop-down {
-  background-color: #1d1d1d;
+  background-color: #191919;
   border: 0;
   margin-left: 4px;
   margin-right: 12px;
@@ -690,7 +690,7 @@ QAbstractSpinBox::up-button:disabled {
 }
 
 QComboBox QAbstractItemView {
-  background-color: #1d1d1d;
+  background-color: #191919;
   border: 1px solid #1c1c1c;
   color: #d8d8d8;
   border-radius: 0;
@@ -854,7 +854,7 @@ QLineEdit:focus,
 QSpinBox:focus,
 QAbstractSpinBox:focus,
 QComboBox:editable:focus {
-  background-color: #1f1f1f;
+  background-color: #191919;
 }
 
 QLineEdit:focus:hover,
@@ -868,7 +868,7 @@ QLineEdit:hover,
 QSpinBox:hover,
 QAbstractSpinBox:hover,
 QComboBox:editable:hover {
-  background-color: #1f1f1f;
+  background-color: #191919;
   border-color: #555;
 }
 
