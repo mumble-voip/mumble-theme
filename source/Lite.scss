@@ -1,10 +1,11 @@
 /*
- * Mumble Lite Theme by xPoke
+ * Mumble Lite Theme
  * https://github.com/mumble-voip/mumble-theme
+ *
+ * Based on MetroMumble Theme by xPoke
  * https://github.com/xPoke
  *
- * Based on Flat Mumble Theme by xPaw (xpaw.ru)
- * GitHub: https://github.com/xPaw
+ * Originally forked from Flat Mumble Theme by xPaw (xpaw.ru)
  *
  * Licensed under The Do What The Fuck You Want To Public License (WTFPL)
  */
@@ -13,10 +14,11 @@
 
 // Add your own custom QSS at the end of this file
 
-// Import color definition
-@import 'Base/Lite Definition';
+// Import skin definitions
+@import 'Imports/Lite Definitions';
 
-// Import base theme
-@import 'Base/Base';
+// Import base theme CSS
+@import 'Imports/Base Theme';
 
 // Add or import your own custom QSS below
+

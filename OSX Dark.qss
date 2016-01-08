@@ -1,19 +1,11 @@
 /*
- * Mumble Dark OS X Theme by xPoke
- * GitHub: https://github.com/xPoke
- *
- * Based on Flat Mumble Theme by xPaw (xpaw.ru)
- * GitHub: https://github.com/xPaw
- *
- * Licensed under The Do What The Fuck You Want To Public License (WTFPL)
- */
-/*
- * Mumble Dark Theme by xPoke
+ * Mumble Dark Theme for OSX
  * https://github.com/mumble-voip/mumble-theme
+ *
+ * Based on MetroMumble Theme by xPoke
  * https://github.com/xPoke
  *
- * Based on Flat Mumble Theme by xPaw (xpaw.ru)
- * GitHub: https://github.com/xPaw
+ * Originally forked from Flat Mumble Theme by xPaw (xpaw.ru)
  *
  * Licensed under The Do What The Fuck You Want To Public License (WTFPL)
  */
@@ -21,6 +13,7 @@
  * YOU SHOULD NOT MODIFY THIS FILE
  * Edit the files in the "source" folder instead.
  * See project README
+ *
  */
 ApplicationPalette {
   qproperty-window: #2e2e2e;
@@ -770,11 +763,11 @@ QSlider::groove {
 }
 
 QSlider::groove:horizontal {
-  height: 1em;
+  height: 0.8em;
 }
 
 QSlider::groove:vertical {
-  width: 1em;
+  width: 0.8em;
 }
 
 QSlider::groove:disabled,
@@ -923,6 +916,10 @@ UserView::item {
   margin: 0 2px;
   margin-bottom: 2px;
   font-size: 13pt;
+}
+
+#qtIconToolbar QComboBox {
+  font-size: 8pt;
 }
 
 .log-time {

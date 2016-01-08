@@ -2,8 +2,8 @@
  * YOU SHOULD NOT MODIFY THIS FILE
  * Edit the files in the "source" folder instead.
  * See project README
+ *
  */
-
 ApplicationPalette {
 	qproperty-window: $base-bg;
 	qproperty-windowtext: $base-text;
@@ -874,12 +874,12 @@ QSlider::groove
 
 QSlider::groove:horizontal
 {
-	height:1em;
+	height:0.8em;
 }
 
 QSlider::groove:vertical
 {
-	width:1em;
+	width:0.8em;
 }
 
 QSlider::groove:disabled,
@@ -1052,6 +1052,11 @@ UserView::item
 	margin:0 2px;
 	margin-bottom:2px;
 	font-size: $font-size-normal;
+}
+
+#qtIconToolbar QComboBox
+{
+	font-size:8pt;
 }
 
 .log-time
