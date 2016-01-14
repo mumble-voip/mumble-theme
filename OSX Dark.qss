@@ -71,7 +71,7 @@ QDialog,
 QWizard *,
 QCalendarWidget *,
 #qswPages > QObject {
-  background-color: #202020;
+  background-color: #1D1D1D;
   color: #d8d8d8;
 }
 
@@ -439,7 +439,7 @@ QTabWidget::pane:bottom {
 }
 
 QTabWidget::tab-bar {
-  background-color: #202020;
+  background-color: #1D1D1D;
 }
 
 QTabBar::tab {
