@@ -257,7 +257,7 @@ QPushButton:pressed:focus {
 }
 
 QGroupBox,
-qwWarningContainer {
+#qwMacWarning {
   background-color: #FDFDFD;
   border: 1px solid #D2D2D2;
   color: #111;
