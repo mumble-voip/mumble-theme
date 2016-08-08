@@ -49,7 +49,7 @@ QObject::handle,
 QObject::tab-bar,
 QObject::tab,
 QObject::section {
-  font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
+  font-family: -apple-system, ".SF NS Text", "Helvetica Neue", "Lucida Grande";
   font-size: 13pt;
   margin: 0;
   padding: 0;
