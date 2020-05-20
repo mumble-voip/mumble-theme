@@ -1043,3 +1043,25 @@ AboutDialog QTextEdit {
 ViewCert {
   min-height: 600px;
 }
+
+TalkingUI {
+  background-color: #191919;
+}
+
+TalkingUI > * {
+  background-color: #191919;
+}
+
+TalkingUI [selected=false] {
+  background-color: #191919;
+}
+
+TalkingUI [selected=false]:hover {
+  background-color: #333;
+}
+
+TalkingUI [selected=true] {
+  background-color: #3e4f5e;
+  border: 1px solid #3e4f5e;
+}
+
