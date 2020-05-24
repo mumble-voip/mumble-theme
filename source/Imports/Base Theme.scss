@@ -1203,3 +1203,27 @@ ViewCert
 {
 	min-height: 600px;
 }
+
+TalkingUI
+{
+	background-color: $sub-bg;
+}
+
+TalkingUI > *
+{
+	background-color: $sub-bg;
+}
+
+TalkingUI [selected="false"]
+{
+	background-color: $sub-bg;
+}
+
+TalkingUI [selected="false"]:hover {
+	background-color: $sub-hover;
+}
+
+TalkingUI [selected="true"] {
+	background-color: $item-selected-active-bg;
+  	border: $item-selected-active-border;
+}

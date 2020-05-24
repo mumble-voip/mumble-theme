@@ -22,7 +22,9 @@ Instead, you should edit either the **`Lite.scss` or `Dark.scss` files in the `s
 
 You can also add your **own variants** in the `source/Imports` folder, which contain the color definitions.
 
-When you process these files in Prepros, it will output the complete skin to the **qss files in the parent folder**.
+When you process these files in Prepros, it will output the complete skin to the **qss files in the parent folder**. If something didn't work out
+quite right, it can also happen that Prepros will output **css** files in the `source` folder. In that case you can simply replace the qss files in
+the root folder with the generated css files (the syntax is actually the same - only the file extension differs).
 
 The **OSX variant** can also be found in the `source` folder, which imports the regular source files but adds a small [OSX fix](https://github.com/xPoke/MetroMumble/issues/4) and modifies font sizes.
 
