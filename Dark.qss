@@ -1052,16 +1052,23 @@ TalkingUI > * {
   background-color: #191919;
 }
 
-TalkingUI [selected=false] {
+TalkingUI [selected="false"] {
   background-color: #191919;
 }
 
-TalkingUI [selected=false]:hover {
+TalkingUI [selected="false"]:hover {
   background-color: #333;
 }
 
-TalkingUI [selected=true] {
+TalkingUI [selected="true"] {
   background-color: #3e4f5e;
   border: 1px solid #3e4f5e;
 }
 
+TalkingUI > QFrame {
+  border: 1px solid;
+  border-color: #1c1c1c;
+  border-radius: 2px;
+}
+
+/*# sourceMappingURL=Dark.qss.map */
