@@ -13,6 +13,10 @@ See the [wiki article on Mumble skinning](https://wiki.mumble.info/wiki/Skinning
 The theme is written in [Sass](https://en.wikipedia.org/wiki/Sass_%28stylesheet_language%29), a language that processes into CSS (or [QSS](http://doc.qt.io/qt-4.8/stylesheet.html) in this case).
 
 If you want to make your own skin based on it, install a Sass processor such as [Prepros](http://alphapixels.com/prepros/). A Prepros project file is included, so simply add the `mumble-theme` folder as a project.
+If you are on Linux you can instead install `ruby-sass` in order to get access to the `sass` CLI program. With it you can compile the individual variants as (assuming you are currently inside the `source` directory)
+```bash
+sass -t expanded Lite.scss ../Lite.qss
+```
 
 The file `source/Imports/Base Theme.scss` contains the actual theme QSS, but it is **not recommended** to modify.
 
