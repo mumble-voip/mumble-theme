@@ -1227,3 +1227,9 @@ TalkingUI [selected="true"] {
 	background-color: $item-selected-active-bg;
   	border: $item-selected-active-border;
 }
+
+TalkingUI > QFrame {
+	border: 1px solid;
+	border-color: $base-border;
+	border-radius: $base-border-radius;
+}
