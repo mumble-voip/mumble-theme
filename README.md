@@ -1,3 +1,7 @@
+**NOTE:** This theme has been integrated into the [Mumble main repository](https://github.com/mumble-voip/mumble) and thus this repository is no longer maintained.
+
+------
+
 A **Mumble theme in Lite and Dark variants**, which is **distributed as the default skin in the Mumble client**.
 
 This theme is a derivative of the [MetroMumble skin](https://github.com/xPoke/MetroMumble).
